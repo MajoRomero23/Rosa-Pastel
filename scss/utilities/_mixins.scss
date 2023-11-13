@@ -1,0 +1,21 @@
+@mixin card($width, $height, $background, $margin,$paddingtop,$paddingleft,$paddingright){
+    width: $width;
+    height: $height;
+    background-color: $background;
+    margin:$margin;
+    padding-top: $paddingtop;
+    padding-left: $paddingleft;
+    padding-right: $paddingright;
+}
+
+@mixin grid($width,$height,$row,$column,$justify,$align,$paddingtop,$gap){
+    display: grid;
+    width: $width;
+    height: $height;
+    grid-template-rows: $row;
+    grid-template-columns: $column;
+    justify-content: $justify;
+    align-items: $align;
+    padding-top: $paddingtop;
+    gap: $gap;
+}

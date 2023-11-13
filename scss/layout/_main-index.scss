@@ -1,0 +1,33 @@
+.mainIndex{
+    background-color: #FEC3C7;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    img{
+        align-items: left;
+        width: 45.375rem;
+        height:43.75rem;
+        margin-right: 1.25rem;
+        padding-top: 1.875rem;
+        padding-bottom: 9.375rem;
+    }
+    .textoInicio{
+    h1 {
+        color: $rosaPrincipal;
+        font-family: $fuenteMontserrat;
+        text-align: left;
+        font-size: map-get($size,titulos);
+        background-color: none;
+        padding-top: 2.5rem;
+        padding-right: 1.25rem;
+    }
+    p{
+        color: #a5637c;
+        font-family: $fuenteMolengo;
+        text-align: center;
+        font-size: map-get($size,subtitulos);
+        padding-right: 1.25rem;
+        padding-top: 1.25rem;
+    }
+}
+}

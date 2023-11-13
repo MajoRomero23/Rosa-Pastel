@@ -1,0 +1,36 @@
+.mainNovedades{
+    h1{
+        color: $rosaPrincipal;
+        text-align: center;
+        font-family: $fuenteMontserrat;
+        font-size: map-get($size, titulos );
+        padding-top: 1.25rem;
+    }
+    p{
+        font-family: $fuenteHind;
+        color: black;
+        font-size: map-get($size,texto );
+        text-align: center;
+        padding-top: 20px;
+    }
+    .botonNovedades{
+        background-color: $rosaPrincipal;
+        color: white;
+        width: 12.5rem;
+        padding:1.25rem;
+        margin: 2.5rem;
+        position: center;
+        border:none;
+        text-decoration: none;
+        font-family: $fuenteMolengo;
+        font-size: map-get($size , texto);
+    }
+    div img{
+        filter: grayscale(2);
+        &:hover{
+            filter: grayscale(0);}
+    }
+.gridContainer{
+@include grid(100%,93.75rem,repeat(4,20.9375rem),repeat(2,21.875rem),center,center,3.125rem,.625rem)
+    }
+}

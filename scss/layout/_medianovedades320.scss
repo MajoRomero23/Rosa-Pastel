@@ -1,0 +1,10 @@
+@media (max-width: 20rem){
+    .mainNovedades{
+        .gridContainer{
+            @include grid(100%,100%,repeat(8,20rem),repeat(1,18.75rem),space-between,center,3.125rem,1.875rem)
+    }
+    div img{
+        filter: none;
+    }
+}
+}
